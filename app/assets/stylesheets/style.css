@@ -1,0 +1,16 @@
+  body {
+    background-color: #333333;
+  }
+
+  .container-fluid {
+    background-color: #333333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    border: 2px solid #FF0000;
+  }

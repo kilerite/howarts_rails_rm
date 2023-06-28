@@ -1,0 +1,19 @@
+<div class="container text-center" style="background-color: #333333; color: #FFFFFF;">
+  <img src="http://cbimg9.com/layouts/08/12/32882aa.jpg" alt="Harry Potter" class="img-fluid">
+
+  <h1 class="mt-4">Lista de personajes de Harry Potter</h1>
+
+  <div class="row justify-content-center">
+    <% @characters.each do |character| %>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Nombre:</strong> <%= character.name %></h5>
+            <p class="card-text"><strong>Ubicación:</strong> <%= character.location %><br><strong>Casa:</strong> <%= character.house %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  Reyes Moreno <br><br>
+</div>
